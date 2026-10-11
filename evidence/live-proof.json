@@ -1,0 +1,70 @@
+{
+  "ballotId": "VOTE-1791759399",
+  "transactions": {
+    "open": "0xaaa6e0bfa42dd7a6b6a10a4e4f4ad8898ce6340b862b78de30bc2cb55957bdf0",
+    "statement1": "0xb56933967bd73f45afbc05de23e7276140b7fc6499cce48034c5da990a051835",
+    "statement3": "0x71b119490647d98534c0471deec5966987cdf8fde6ea30e7442fe51745af860c",
+    "statement4": "0x7abbe3dda670723e6c04b0ed16a18aee55b42ffcfad23d0537fd905b728f5864",
+    "tally": "0xb89fdb1833d3294f23e7104c3e51065482ec919e408e2328a39f03c13c921583"
+  },
+  "state": {
+    "deadline": 1791763001,
+    "digests": [
+      "034402a464dbe66437580eb980dadc37b091720c7f61dd2345acf3bedf914098",
+      "1ffc0674c6021bab082291e81181f823ec83150fda8c53f3404be70cd45f26af",
+      "7aca1a1a1b0b6ebecb6083e9feec384d0886bd0f91e4dc50ff72b4919459ba67"
+    ],
+    "id": "VOTE-1791759399",
+    "matrix": [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "options": [
+      "North Hall",
+      "River Annex",
+      "Workshop Court"
+    ],
+    "owner": "0x412d61db014fCdDda12e33b826f63B8ef9AC2E87",
+    "rankings": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        2
+      ]
+    ],
+    "state": "DECIDED",
+    "statement_count": 3,
+    "title": "Shared workshop location",
+    "voters": [
+      "0xCAFA30BF94D4fb01146588a1b7901BD85E7DbD0f",
+      "0xAD049E0Edc298C97552eD60071a35bfc60181FD4",
+      "0x05C0cc3F433F6e296f18117f558FdB9043434793"
+    ],
+    "winner_index": 0,
+    "winner_label": "North Hall"
+  },
+  "disclosure": "The voter wallets are operator-controlled role fixtures, not independent people."
+}

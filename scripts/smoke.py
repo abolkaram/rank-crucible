@@ -38,7 +38,15 @@ def client(number):
 def write(number, name, args):
     active = client(number); tx = active.write_contract(address=ADDRESS, function_name=name, args=args)
     print(name + '_tx=' + str(tx), flush=True)
-    receipt = active.wait_for_transaction_receipt(transaction_hash=tx, wait_until='finalized', retries=180, interval=5000, full_transaction=True)
+    receipt = None
+    for attempt in range(12):
+        try:
+            receipt = active.wait_for_transaction_receipt(transaction_hash=tx, wait_until='finalized', retries=180, interval=5000, full_transaction=True)
+            break
+        except Exception:
+            if attempt == 11:
+                raise
+            time.sleep(5)
     leaders = receipt.get('consensus_data', {}).get('leader_receipt') or []
     leaders = [leaders] if isinstance(leaders, dict) else leaders
     assert receipt.get('result_name') == 'MAJORITY_AGREE'

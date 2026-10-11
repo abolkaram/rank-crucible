@@ -10,3 +10,10 @@ The terminal record is `DECIDED` with a unique Condorcet winner or `CYCLE` with 
 genvm-lint contracts/contract.py
 python -m pytest -q
 ```
+
+## Live tally
+
+- Contract: [`0x638d0b1CCB1C35400888A98A5e1E56158b344187`](https://explorer-studio.genlayer.com/address/0x638d0b1CCB1C35400888A98A5e1E56158b344187)
+- Reviewed source: [`37d3779`](https://github.com/abolkaram/rank-crucible/tree/37d3779b2b7d488a61a275367f13dbfd964a5d1c)
+- Live ballot: `VOTE-1791759399`, state `DECIDED`, winner `North Hall`.
+- Verification: finalized, majority agree, successful execution, exact deployed-source match.

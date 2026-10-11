@@ -1,0 +1,12 @@
+{
+  "account":"abolkaram",
+  "repository":"https://github.com/abolkaram/rank-crucible",
+  "reviewedSource":"https://github.com/abolkaram/rank-crucible/blob/37d3779b2b7d488a61a275367f13dbfd964a5d1c/contracts/contract.py",
+  "sourceCommit":"37d3779b2b7d488a61a275367f13dbfd964a5d1c",
+  "sourceSha256":"3f5352fec678084c861d9c7374a63dcc22363ddab7667e25b3c4d56a0ce352d6",
+  "contractAddress":"0x638d0b1CCB1C35400888A98A5e1E56158b344187",
+  "explorer":"https://explorer-studio.genlayer.com/address/0x638d0b1CCB1C35400888A98A5e1E56158b344187",
+  "deploymentTransaction":"0xf40addc60e10bc2d62d00eef4434d1d850fb4eadd7b938a3d858c24fa8842785",
+  "liveRecord":"VOTE-1791759399",
+  "liveResult":"DECIDED / North Hall"
+}
